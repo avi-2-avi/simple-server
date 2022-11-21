@@ -44,6 +44,10 @@ Additionally, use "use" (no pun intended) in order to refer to a module and to a
 
 Every file in Rust is treated as a module. So, in to move your module to a separate file you don't need to wrap it around module, just put its contents. However, in order to use it you have to call is with the "use" keyword.
 
+#### Errors
+
+There's two types of errors: recoverable (can be handled) and unrecoverable (probably a bug). The Result enum is used for recoverable errors and there's two possible states: Ok(T) and Err(E) for succesful and error results respectively.
+
 ### HTTP/1.1
 
 It's an application layer 7 protocol which is sent over TCP. In here, the clients exchange individual messages instead of streaming data.
