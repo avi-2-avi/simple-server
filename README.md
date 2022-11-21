@@ -1,5 +1,7 @@
 # Single threaded server using Rust
 
+**Currently working in the project. IN PROGRESS**
+
 Note regarding simple server.
 
 ## Architecture
